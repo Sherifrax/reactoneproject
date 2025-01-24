@@ -1,16 +1,18 @@
-.favorites {
+
+.favorites{
   padding: 2rem;
   width: 100%;
   box-sizing: border-box;
 }
 
-.favorites h2 {
+.favorites h2{
   margin-bottom: 2rem;
   text-align: center;
   font-size: 2.5rem;
   color: #ffffff;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
+
 
 .favorites-empty {
   text-align: center;
@@ -21,21 +23,19 @@
   max-width: 600px;
 }
 
-.favorites-empty h2 {
+.favorites-empty h2{
   margin-bottom: 1rem;
   font-size: 2rem;
   color: #e50914;
 }
 
-.favorites-empty p {
+.favorites-empty p{
   color: #999;
   font-size: 1.2rem;
   line-height: 1.6;
 }
 
-
-/* Animation for new favorites being added */
-@keyframes fadeIn {
+@keyframes fadeIn{
   from {
     opacity: 0;
     transform: translateY(20px);
@@ -49,4 +49,3 @@
 .movies-grid > * {
   animation: fadeIn 0.3s ease-out forwards;
 }
-
